@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1826C9D1F2FDBB9FF1556C13 /* Pods_LiveMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D614BFFD415310A64E2EA6E6 /* Pods_LiveMate.framework */; };
+		CE6EC3781C93FB8100D70158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EC3771C93FB8100D70158 /* AppDelegate.swift */; };
+		CE6EC37D1C93FB8100D70158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6EC37B1C93FB8100D70158 /* Main.storyboard */; };
+		CE6EC37F1C93FB8100D70158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6EC37E1C93FB8100D70158 /* Assets.xcassets */; };
+		CE6EC3821C93FB8100D70158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6EC3801C93FB8100D70158 /* LaunchScreen.storyboard */; };
+		CEC925B51C9BC8E300FCDC78 /* ArtistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC925B41C9BC8E300FCDC78 /* ArtistData.swift */; };
+		CEF93C261C97AE9400960626 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF93C251C97AE9400960626 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1717C6FE9BCBAD0C47770765 /* Pods-LiveMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveMate.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveMate/Pods-LiveMate.release.xcconfig"; sourceTree = "<group>"; };
+		40D7F9B9DDA6B03D2C5ABC9E /* Pods-LiveMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveMate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveMate/Pods-LiveMate.debug.xcconfig"; sourceTree = "<group>"; };
+		CE6EC3741C93FB8100D70158 /* LiveMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6EC3771C93FB8100D70158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE6EC37C1C93FB8100D70158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE6EC37E1C93FB8100D70158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE6EC3811C93FB8100D70158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE6EC3831C93FB8100D70158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC925B41C9BC8E300FCDC78 /* ArtistData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistData.swift; sourceTree = "<group>"; };
+		CEF93C251C97AE9400960626 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D614BFFD415310A64E2EA6E6 /* Pods_LiveMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6EC3711C93FB8100D70158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1826C9D1F2FDBB9FF1556C13 /* Pods_LiveMate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82504ED673639CE8448AFFFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D614BFFD415310A64E2EA6E6 /* Pods_LiveMate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		908C07BB07B97CDB96956C1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40D7F9B9DDA6B03D2C5ABC9E /* Pods-LiveMate.debug.xcconfig */,
+				1717C6FE9BCBAD0C47770765 /* Pods-LiveMate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE6EC36B1C93FB8100D70158 = {
+			isa = PBXGroup;
+			children = (
+				CE6EC3761C93FB8100D70158 /* LiveMate */,
+				CE6EC3751C93FB8100D70158 /* Products */,
+				908C07BB07B97CDB96956C1D /* Pods */,
+				82504ED673639CE8448AFFFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6EC3751C93FB8100D70158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6EC3741C93FB8100D70158 /* LiveMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6EC3761C93FB8100D70158 /* LiveMate */ = {
+			isa = PBXGroup;
+			children = (
+				CEC925B31C9BC83900FCDC78 /* Models */,
+				CEC925B21C9BC83300FCDC78 /* Views */,
+				CEC925B11C9BC82900FCDC78 /* Controllers */,
+				CE6EC3771C93FB8100D70158 /* AppDelegate.swift */,
+				CE6EC37B1C93FB8100D70158 /* Main.storyboard */,
+				CE6EC37E1C93FB8100D70158 /* Assets.xcassets */,
+				CE6EC3801C93FB8100D70158 /* LaunchScreen.storyboard */,
+				CE6EC3831C93FB8100D70158 /* Info.plist */,
+			);
+			path = LiveMate;
+			sourceTree = "<group>";
+		};
+		CEC925B11C9BC82900FCDC78 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEF93C251C97AE9400960626 /* LoginViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CEC925B21C9BC83300FCDC78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CEC925B31C9BC83900FCDC78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEC925B41C9BC8E300FCDC78 /* ArtistData.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6EC3731C93FB8100D70158 /* LiveMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE6EC3861C93FB8100D70158 /* Build configuration list for PBXNativeTarget "LiveMate" */;
+			buildPhases = (
+				75B5B5B8E21C782BFC04AEB8 /* Check Pods Manifest.lock */,
+				CE6EC3701C93FB8100D70158 /* Sources */,
+				CE6EC3711C93FB8100D70158 /* Frameworks */,
+				CE6EC3721C93FB8100D70158 /* Resources */,
+				33EFAD71B5155D404D719D54 /* Embed Pods Frameworks */,
+				64ABE36B3B0EFA8651891394 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveMate;
+			productName = LiveMate;
+			productReference = CE6EC3741C93FB8100D70158 /* LiveMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6EC36C1C93FB8100D70158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Zeus;
+				TargetAttributes = {
+					CE6EC3731C93FB8100D70158 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 83BA96RKQ4;
+					};
+				};
+			};
+			buildConfigurationList = CE6EC36F1C93FB8100D70158 /* Build configuration list for PBXProject "LiveMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE6EC36B1C93FB8100D70158;
+			productRefGroup = CE6EC3751C93FB8100D70158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6EC3731C93FB8100D70158 /* LiveMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6EC3721C93FB8100D70158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6EC3821C93FB8100D70158 /* LaunchScreen.storyboard in Resources */,
+				CE6EC37F1C93FB8100D70158 /* Assets.xcassets in Resources */,
+				CE6EC37D1C93FB8100D70158 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33EFAD71B5155D404D719D54 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveMate/Pods-LiveMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64ABE36B3B0EFA8651891394 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveMate/Pods-LiveMate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75B5B5B8E21C782BFC04AEB8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6EC3701C93FB8100D70158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC925B51C9BC8E300FCDC78 /* ArtistData.swift in Sources */,
+				CEF93C261C97AE9400960626 /* LoginViewController.swift in Sources */,
+				CE6EC3781C93FB8100D70158 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE6EC37B1C93FB8100D70158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6EC37C1C93FB8100D70158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE6EC3801C93FB8100D70158 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6EC3811C93FB8100D70158 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6EC3841C93FB8100D70158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE6EC3851C93FB8100D70158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE6EC3871C93FB8100D70158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D7F9B9DDA6B03D2C5ABC9E /* Pods-LiveMate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zeus.LiveMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE6EC3881C93FB8100D70158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1717C6FE9BCBAD0C47770765 /* Pods-LiveMate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zeus.LiveMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6EC36F1C93FB8100D70158 /* Build configuration list for PBXProject "LiveMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6EC3841C93FB8100D70158 /* Debug */,
+				CE6EC3851C93FB8100D70158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE6EC3861C93FB8100D70158 /* Build configuration list for PBXNativeTarget "LiveMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6EC3871C93FB8100D70158 /* Debug */,
+				CE6EC3881C93FB8100D70158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6EC36C1C93FB8100D70158 /* Project object */;
+}
