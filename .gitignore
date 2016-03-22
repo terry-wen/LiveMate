@@ -1,11 +1,20 @@
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+<<<<<<< HEAD
 .plist
+=======
+
+>>>>>>> 027bbbccfc4568afc04c9c8e848facddf1e8094c
 ## Build generated
 build/
 DerivedData
 
+<<<<<<< HEAD
+=======
+Info.plist
+
+>>>>>>> 027bbbccfc4568afc04c9c8e848facddf1e8094c
 ## Various settings
 *.pbxuser
 !default.pbxuser
@@ -61,4 +70,8 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/screenshots
+<<<<<<< HEAD
+
+=======
+>>>>>>> 027bbbccfc4568afc04c9c8e848facddf1e8094c
 
