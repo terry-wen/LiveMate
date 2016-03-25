@@ -70,7 +70,7 @@
         <!--Profile-->
         <scene sceneID="FoO-CK-T3t">
             <objects>
-                <viewController id="zp0-Dh-qcw" sceneMemberID="viewController">
+                <viewController id="zp0-Dh-qcw" customClass="ProfileViewController" customModule="LiveMate" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WYm-Ce-DOr"/>
                         <viewControllerLayoutGuide type="bottom" id="N8C-BX-rId"/>
@@ -116,6 +116,10 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" id="tds-Cr-6bl"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="emailLabel" destination="4SX-eS-ABH" id="uLq-wT-sQn"/>
+                        <outlet property="usernameLabel" destination="4Bb-ss-H1e" id="Yfl-eG-Byo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aCM-8b-Qoe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
