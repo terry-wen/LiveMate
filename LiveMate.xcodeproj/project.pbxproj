@@ -12,6 +12,7 @@
 		CE6EC37D1C93FB8100D70158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6EC37B1C93FB8100D70158 /* Main.storyboard */; };
 		CE6EC37F1C93FB8100D70158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6EC37E1C93FB8100D70158 /* Assets.xcassets */; };
 		CE6EC3821C93FB8100D70158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6EC3801C93FB8100D70158 /* LaunchScreen.storyboard */; };
+		CE90FCA41CA62B3A00813DF9 /* ArtistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90FCA31CA62B3A00813DF9 /* ArtistProfileViewController.swift */; };
 		CEC925B51C9BC8E300FCDC78 /* ArtistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC925B41C9BC8E300FCDC78 /* ArtistData.swift */; };
 		CECC663D1CA51E6800262A8E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC663C1CA51E6800262A8E /* ProfileViewController.swift */; };
 		CEF93C261C97AE9400960626 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF93C251C97AE9400960626 /* LoginViewController.swift */; };
@@ -26,6 +27,7 @@
 		CE6EC37E1C93FB8100D70158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6EC3811C93FB8100D70158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE6EC3831C93FB8100D70158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE90FCA31CA62B3A00813DF9 /* ArtistProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistProfileViewController.swift; sourceTree = "<group>"; };
 		CEC925B41C9BC8E300FCDC78 /* ArtistData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistData.swift; sourceTree = "<group>"; };
 		CECC663C1CA51E6800262A8E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CEF93C251C97AE9400960626 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -83,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				CEC925B31C9BC83900FCDC78 /* Models */,
-				CEC925B21C9BC83300FCDC78 /* Views */,
 				CEC925B11C9BC82900FCDC78 /* Controllers */,
 				CE6EC3771C93FB8100D70158 /* AppDelegate.swift */,
 				CE6EC37B1C93FB8100D70158 /* Main.storyboard */,
@@ -99,15 +100,9 @@
 			children = (
 				CEF93C251C97AE9400960626 /* LoginViewController.swift */,
 				CECC663C1CA51E6800262A8E /* ProfileViewController.swift */,
+				CE90FCA31CA62B3A00813DF9 /* ArtistProfileViewController.swift */,
 			);
 			name = Controllers;
-			sourceTree = "<group>";
-		};
-		CEC925B21C9BC83300FCDC78 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Views;
 			sourceTree = "<group>";
 		};
 		CEC925B31C9BC83900FCDC78 /* Models */ = {
@@ -244,6 +239,7 @@
 				CEC925B51C9BC8E300FCDC78 /* ArtistData.swift in Sources */,
 				CEF93C261C97AE9400960626 /* LoginViewController.swift in Sources */,
 				CECC663D1CA51E6800262A8E /* ProfileViewController.swift in Sources */,
+				CE90FCA41CA62B3A00813DF9 /* ArtistProfileViewController.swift in Sources */,
 				CE6EC3781C93FB8100D70158 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
