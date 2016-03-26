@@ -13,6 +13,7 @@ import Parse
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var storyboard = UIStoryboard(name: "Main", bundle: nil)
 
     //Comment for git testing
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -45,9 +46,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             })
         )
         
+        // Creates the logout action observer
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "userDidLogout", name: logoutNotification, object: nil)
+        
+        
+        // Checks if there's user already logged, and skips the login screen if so.
+        
+        if (PFUser.currentUser() != nil) {
+            let viewController = storyboard.instantiateViewControllerWithIdentifier("TabBarController") as! UITabBarController
+            
+            window?.rootViewController = viewController
+            
+        }
+        
         return true
     }
-
+    
+    func userDidLogout() {
+        let vc = storyboard.instantiateInitialViewController()! as UIViewController
+        window?.rootViewController = vc
+    }
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
