@@ -22,12 +22,11 @@ Optional User Stories:
 
 ### Market Info
     
-#Competetitors:
+#Competitors:
     - Facebook (Artist Pages)
     - Craiglist (Swiss army knife of finding services)
 
-#What will LiveMate do that our Competetitors cannot?
+#What will LiveMate do that our Competitors cannot?
     - Hard to find performers by location on Facebook, no booking functionality.
     - Craiglist makes finding acts by location simple, however, there is no booking functionality.
     - Furthermore, from a 'Performer' perspective, Craigslist makes creating a unique page hard (bio, music, images), something Facebook is great at.
-s
