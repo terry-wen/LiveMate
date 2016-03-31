@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  LiveMate
 //
-//  Created by zeus medina on 3/12/16.
-//  Copyright © 2016 Zeus. All rights reserved.
+//  Created by Zeus Medina, Tim Kaing, and Terry Wen on 3/12/16.
+//  Copyright © 2016 TZT. All rights reserved.
 //
 
 import UIKit

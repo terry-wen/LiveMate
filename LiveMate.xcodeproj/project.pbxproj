@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1826C9D1F2FDBB9FF1556C13 /* Pods_LiveMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D614BFFD415310A64E2EA6E6 /* Pods_LiveMate.framework */; };
+		8C274ACA1CAC9C91002D2745 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C274AC91CAC9C91002D2745 /* ExploreViewController.swift */; };
+		8C274ACE1CACA32F002D2745 /* artistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C274ACD1CACA32F002D2745 /* artistCell.swift */; };
 		CE6EC3781C93FB8100D70158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EC3771C93FB8100D70158 /* AppDelegate.swift */; };
 		CE6EC37D1C93FB8100D70158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6EC37B1C93FB8100D70158 /* Main.storyboard */; };
 		CE6EC37F1C93FB8100D70158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6EC37E1C93FB8100D70158 /* Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* Begin PBXFileReference section */
 		1717C6FE9BCBAD0C47770765 /* Pods-LiveMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveMate.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveMate/Pods-LiveMate.release.xcconfig"; sourceTree = "<group>"; };
 		40D7F9B9DDA6B03D2C5ABC9E /* Pods-LiveMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveMate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveMate/Pods-LiveMate.debug.xcconfig"; sourceTree = "<group>"; };
+		8C274AC91CAC9C91002D2745 /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		8C274ACD1CACA32F002D2745 /* artistCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = artistCell.swift; sourceTree = "<group>"; };
 		CE6EC3741C93FB8100D70158 /* LiveMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6EC3771C93FB8100D70158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6EC37C1C93FB8100D70158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8C274ACB1CAC9E6D002D2745 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C274ACD1CACA32F002D2745 /* artistCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		908C07BB07B97CDB96956C1D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +96,7 @@
 		CE6EC3761C93FB8100D70158 /* LiveMate */ = {
 			isa = PBXGroup;
 			children = (
+				8C274ACB1CAC9E6D002D2745 /* Views */,
 				CEC925B31C9BC83900FCDC78 /* Models */,
 				CEC925B11C9BC82900FCDC78 /* Controllers */,
 				CE6EC3771C93FB8100D70158 /* AppDelegate.swift */,
@@ -101,6 +114,7 @@
 				CEF93C251C97AE9400960626 /* LoginViewController.swift */,
 				CECC663C1CA51E6800262A8E /* ProfileViewController.swift */,
 				CE90FCA31CA62B3A00813DF9 /* ArtistProfileViewController.swift */,
+				8C274AC91CAC9C91002D2745 /* ExploreViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -238,9 +252,11 @@
 			files = (
 				CEC925B51C9BC8E300FCDC78 /* ArtistData.swift in Sources */,
 				CEF93C261C97AE9400960626 /* LoginViewController.swift in Sources */,
+				8C274ACA1CAC9C91002D2745 /* ExploreViewController.swift in Sources */,
 				CECC663D1CA51E6800262A8E /* ProfileViewController.swift in Sources */,
 				CE90FCA41CA62B3A00813DF9 /* ArtistProfileViewController.swift in Sources */,
 				CE6EC3781C93FB8100D70158 /* AppDelegate.swift in Sources */,
+				8C274ACE1CACA32F002D2745 /* artistCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
