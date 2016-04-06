@@ -8,21 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1826C9D1F2FDBB9FF1556C13 /* Pods_LiveMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D614BFFD415310A64E2EA6E6 /* Pods_LiveMate.framework */; };
-		8C274ACA1CAC9C91002D2745 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C274AC91CAC9C91002D2745 /* ExploreViewController.swift */; };
-		8C274ACE1CACA32F002D2745 /* artistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C274ACD1CACA32F002D2745 /* artistCell.swift */; };
-		CE6EC3781C93FB8100D70158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EC3771C93FB8100D70158 /* AppDelegate.swift */; };
 		CE6EC37D1C93FB8100D70158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6EC37B1C93FB8100D70158 /* Main.storyboard */; };
 		CE6EC37F1C93FB8100D70158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6EC37E1C93FB8100D70158 /* Assets.xcassets */; };
 		CE6EC3821C93FB8100D70158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6EC3801C93FB8100D70158 /* LaunchScreen.storyboard */; };
-		CE90FCA41CA62B3A00813DF9 /* ArtistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90FCA31CA62B3A00813DF9 /* ArtistProfileViewController.swift */; };
-		CEC925B51C9BC8E300FCDC78 /* ArtistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC925B41C9BC8E300FCDC78 /* ArtistData.swift */; };
-		CECC663D1CA51E6800262A8E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC663C1CA51E6800262A8E /* ProfileViewController.swift */; };
-		CEF93C261C97AE9400960626 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF93C251C97AE9400960626 /* LoginViewController.swift */; };
-		F68DBF771CB4F475006F674A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68DBF761CB4F475006F674A /* ChatViewController.swift */; };
-		F68DBF791CB4F8A3006F674A /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68DBF781CB4F8A3006F674A /* ChatCell.swift */; };
-		F6FCA7041CACA28600B4F89E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FCA7031CACA28600B4F89E /* MessageViewController.swift */; };
-		F6FCA7061CACA2A000B4F89E /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FCA7051CACA2A000B4F89E /* InboxViewController.swift */; };
-		F6FCA70D1CACA40200B4F89E /* InboxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FCA70C1CACA40200B4F89E /* InboxCell.swift */; };
+		F638E4D31CB524C100444F13 /* artistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C274ACD1CACA32F002D2745 /* artistCell.swift */; };
+		F638E4D41CB524C100444F13 /* InboxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601964F1CB5242A000DF2D6 /* InboxCell.swift */; };
+		F638E4D51CB524C100444F13 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601964D1CB52376000DF2D6 /* ChatCell.swift */; };
+		F638E4D61CB524C100444F13 /* ArtistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC925B41C9BC8E300FCDC78 /* ArtistData.swift */; };
+		F638E4D71CB524C100444F13 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF93C251C97AE9400960626 /* LoginViewController.swift */; };
+		F638E4D81CB524C100444F13 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC663C1CA51E6800262A8E /* ProfileViewController.swift */; };
+		F638E4D91CB524C100444F13 /* ArtistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90FCA31CA62B3A00813DF9 /* ArtistProfileViewController.swift */; };
+		F638E4DA1CB524C100444F13 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FCA7031CACA28600B4F89E /* MessageViewController.swift */; };
+		F638E4DB1CB524C100444F13 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FCA7051CACA2A000B4F89E /* InboxViewController.swift */; };
+		F638E4DC1CB524C100444F13 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68DBF761CB4F475006F674A /* ChatViewController.swift */; };
+		F638E4DD1CB524C100444F13 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C274AC91CAC9C91002D2745 /* ExploreViewController.swift */; };
+		F638E4DE1CB524C100444F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EC3771C93FB8100D70158 /* AppDelegate.swift */; };
+		F638E4DF1CB524C100444F13 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = CE6EC37E1C93FB8100D70158 /* Assets.xcassets */; };
+		F638E4E01CB524C100444F13 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = CE6EC3831C93FB8100D70158 /* Info.plist */; };
+		F638E4E11CB524C100444F13 /* LiveMate.app in Sources */ = {isa = PBXBuildFile; fileRef = CE6EC3741C93FB8100D70158 /* LiveMate.app */; };
+		F638E4E21CB524C100444F13 /* Pods-LiveMate.debug.xcconfig in Sources */ = {isa = PBXBuildFile; fileRef = 40D7F9B9DDA6B03D2C5ABC9E /* Pods-LiveMate.debug.xcconfig */; };
+		F638E4E31CB524C100444F13 /* Pods-LiveMate.release.xcconfig in Sources */ = {isa = PBXBuildFile; fileRef = 1717C6FE9BCBAD0C47770765 /* Pods-LiveMate.release.xcconfig */; };
+		F638E4E41CB524C100444F13 /* Pods_LiveMate.framework in Sources */ = {isa = PBXBuildFile; fileRef = D614BFFD415310A64E2EA6E6 /* Pods_LiveMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,11 +47,11 @@
 		CECC663C1CA51E6800262A8E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CEF93C251C97AE9400960626 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D614BFFD415310A64E2EA6E6 /* Pods_LiveMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F601964D1CB52376000DF2D6 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		F601964F1CB5242A000DF2D6 /* InboxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxCell.swift; sourceTree = "<group>"; };
 		F68DBF761CB4F475006F674A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		F68DBF781CB4F8A3006F674A /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		F6FCA7031CACA28600B4F89E /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		F6FCA7051CACA2A000B4F89E /* InboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
-		F6FCA70C1CACA40200B4F89E /* InboxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				8C274ACD1CACA32F002D2745 /* artistCell.swift */,
+				F601964F1CB5242A000DF2D6 /* InboxCell.swift */,
+				F601964D1CB52376000DF2D6 /* ChatCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -140,15 +148,6 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
-		F6FCA7071CACA38600B4F89E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				F6FCA70C1CACA40200B4F89E /* InboxCell.swift */,
-				F68DBF781CB4F8A3006F674A /* ChatCell.swift */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,11 +156,11 @@
 			buildConfigurationList = CE6EC3861C93FB8100D70158 /* Build configuration list for PBXNativeTarget "LiveMate" */;
 			buildPhases = (
 				75B5B5B8E21C782BFC04AEB8 /* Check Pods Manifest.lock */,
-				CE6EC3701C93FB8100D70158 /* Sources */,
 				CE6EC3711C93FB8100D70158 /* Frameworks */,
 				CE6EC3721C93FB8100D70158 /* Resources */,
 				33EFAD71B5155D404D719D54 /* Embed Pods Frameworks */,
 				64ABE36B3B0EFA8651891394 /* Copy Pods Resources */,
+				F638E4D21CB524AE00444F13 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -268,22 +267,28 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE6EC3701C93FB8100D70158 /* Sources */ = {
+		F638E4D21CB524AE00444F13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6FCA7061CACA2A000B4F89E /* InboxViewController.swift in Sources */,
-				CEC925B51C9BC8E300FCDC78 /* ArtistData.swift in Sources */,
-				F6FCA70D1CACA40200B4F89E /* InboxCell.swift in Sources */,
-				F68DBF791CB4F8A3006F674A /* ChatCell.swift in Sources */,
-				CEF93C261C97AE9400960626 /* LoginViewController.swift in Sources */,
-				8C274ACA1CAC9C91002D2745 /* ExploreViewController.swift in Sources */,
-				CECC663D1CA51E6800262A8E /* ProfileViewController.swift in Sources */,
-				CE90FCA41CA62B3A00813DF9 /* ArtistProfileViewController.swift in Sources */,
-				F6FCA7041CACA28600B4F89E /* MessageViewController.swift in Sources */,
-				F68DBF771CB4F475006F674A /* ChatViewController.swift in Sources */,
-				CE6EC3781C93FB8100D70158 /* AppDelegate.swift in Sources */,
-				8C274ACE1CACA32F002D2745 /* artistCell.swift in Sources */,
+				F638E4D31CB524C100444F13 /* artistCell.swift in Sources */,
+				F638E4D41CB524C100444F13 /* InboxCell.swift in Sources */,
+				F638E4D51CB524C100444F13 /* ChatCell.swift in Sources */,
+				F638E4D61CB524C100444F13 /* ArtistData.swift in Sources */,
+				F638E4D71CB524C100444F13 /* LoginViewController.swift in Sources */,
+				F638E4D81CB524C100444F13 /* ProfileViewController.swift in Sources */,
+				F638E4D91CB524C100444F13 /* ArtistProfileViewController.swift in Sources */,
+				F638E4DA1CB524C100444F13 /* MessageViewController.swift in Sources */,
+				F638E4DB1CB524C100444F13 /* InboxViewController.swift in Sources */,
+				F638E4DC1CB524C100444F13 /* ChatViewController.swift in Sources */,
+				F638E4DD1CB524C100444F13 /* ExploreViewController.swift in Sources */,
+				F638E4DE1CB524C100444F13 /* AppDelegate.swift in Sources */,
+				F638E4DF1CB524C100444F13 /* Assets.xcassets in Sources */,
+				F638E4E01CB524C100444F13 /* Info.plist in Sources */,
+				F638E4E11CB524C100444F13 /* LiveMate.app in Sources */,
+				F638E4E21CB524C100444F13 /* Pods-LiveMate.debug.xcconfig in Sources */,
+				F638E4E31CB524C100444F13 /* Pods-LiveMate.release.xcconfig in Sources */,
+				F638E4E41CB524C100444F13 /* Pods_LiveMate.framework in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
