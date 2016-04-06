@@ -16,6 +16,8 @@
 		CEC925B51C9BC8E300FCDC78 /* ArtistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC925B41C9BC8E300FCDC78 /* ArtistData.swift */; };
 		CECC663D1CA51E6800262A8E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC663C1CA51E6800262A8E /* ProfileViewController.swift */; };
 		CEF93C261C97AE9400960626 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF93C251C97AE9400960626 /* LoginViewController.swift */; };
+		F68DBF771CB4F475006F674A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68DBF761CB4F475006F674A /* ChatViewController.swift */; };
+		F68DBF791CB4F8A3006F674A /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68DBF781CB4F8A3006F674A /* ChatCell.swift */; };
 		F6FCA7041CACA28600B4F89E /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FCA7031CACA28600B4F89E /* MessageViewController.swift */; };
 		F6FCA7061CACA2A000B4F89E /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FCA7051CACA2A000B4F89E /* InboxViewController.swift */; };
 		F6FCA70D1CACA40200B4F89E /* InboxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FCA70C1CACA40200B4F89E /* InboxCell.swift */; };
@@ -35,6 +37,8 @@
 		CECC663C1CA51E6800262A8E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		CEF93C251C97AE9400960626 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D614BFFD415310A64E2EA6E6 /* Pods_LiveMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68DBF761CB4F475006F674A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		F68DBF781CB4F8A3006F674A /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		F6FCA7031CACA28600B4F89E /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		F6FCA7051CACA2A000B4F89E /* InboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
 		F6FCA70C1CACA40200B4F89E /* InboxCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxCell.swift; sourceTree = "<group>"; };
@@ -110,6 +114,7 @@
 				CE90FCA31CA62B3A00813DF9 /* ArtistProfileViewController.swift */,
 				F6FCA7031CACA28600B4F89E /* MessageViewController.swift */,
 				F6FCA7051CACA2A000B4F89E /* InboxViewController.swift */,
+				F68DBF761CB4F475006F674A /* ChatViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				F6FCA70C1CACA40200B4F89E /* InboxCell.swift */,
+				F68DBF781CB4F8A3006F674A /* ChatCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -256,10 +262,12 @@
 				F6FCA7061CACA2A000B4F89E /* InboxViewController.swift in Sources */,
 				CEC925B51C9BC8E300FCDC78 /* ArtistData.swift in Sources */,
 				F6FCA70D1CACA40200B4F89E /* InboxCell.swift in Sources */,
+				F68DBF791CB4F8A3006F674A /* ChatCell.swift in Sources */,
 				CEF93C261C97AE9400960626 /* LoginViewController.swift in Sources */,
 				CECC663D1CA51E6800262A8E /* ProfileViewController.swift in Sources */,
 				CE90FCA41CA62B3A00813DF9 /* ArtistProfileViewController.swift in Sources */,
 				F6FCA7041CACA28600B4F89E /* MessageViewController.swift in Sources */,
+				F68DBF771CB4F475006F674A /* ChatViewController.swift in Sources */,
 				CE6EC3781C93FB8100D70158 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,7 +14,7 @@ class InboxViewController: UIViewController, UITableViewDelegate, UITableViewDat
     @IBOutlet weak var tableView: UITableView!
     
     var messages: [PFObject] = []
-    var users: [String] = []
+    var users: [String] = ["Tim", "Zeus"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +22,7 @@ class InboxViewController: UIViewController, UITableViewDelegate, UITableViewDat
         tableView.dataSource = self
         tableView.delegate = self
         
-        let query1 = PFQuery(className:"Message")
+        /*let query1 = PFQuery(className:"Message")
         query1.whereKey("fromId", equalTo: PFUser.currentUser()!.objectId!)
         query1.findObjectsInBackgroundWithBlock {
             (objects: [PFObject]?, error: NSError?) -> Void in
@@ -72,7 +72,7 @@ class InboxViewController: UIViewController, UITableViewDelegate, UITableViewDat
             if !users.contains(username) {
                 users.append(username)
             }
-        }
+        }*/
         
         // Do any additional setup after loading the view.
     }
